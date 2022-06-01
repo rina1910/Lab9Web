@@ -43,7 +43,17 @@ media="screen" />
 </body>
 </html>
 ```
-# 3. Buat file baru dengan nama home.php
+# 3. Membuat file baru dengan nama home.php
+```php
+<?php require('header.php'); ?>
+<div class="content">
+    <h2>Ini Halaman Home</h2>
+    <p>Ini adalah bagian content dari halaman.</p>
+</div>
+<?php require('footer.php'); ?>
+```
+<strong>Hasil format diatas sebagai berikut:</strong>
+![](Foto/foto2.png)
 
 # 4. Buat file baru dengan nama about.php
 
