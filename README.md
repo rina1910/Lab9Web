@@ -30,7 +30,7 @@ media="screen" />
             <a href="kontak.php">Kontak</a>
         </nav>
 ````
-<strong>Hasil format diatas sebagai berikut:</strong>
+<strong>Posisi header.php biasanya ada di bagian atas atau awalan. Hasil format diatas sebagai berikut:</strong>
 ![](Foto/foto1.png)
 
 # 2. Membuat file baru dengan nama footer.php
@@ -43,6 +43,9 @@ media="screen" />
 </body>
 </html>
 ```
+<strong>Posisi footer.php biasanya ada di bagian akhir kalimat artikel.Hasil format diatas sebagai berikut:</strong>
+![](Foto/foto2.png)
+
 # 3. Membuat file baru dengan nama home.php
 ```php
 <?php require('header.php'); ?>
@@ -52,9 +55,18 @@ media="screen" />
 </div>
 <?php require('footer.php'); ?>
 ```
-<strong>Hasil format diatas sebagai berikut:</strong>
-![](Foto/foto2.png)
+<strong>Posisi home.php biasanya ada di bagian akhir kalimat artikel.Hasil format diatas sebagai berikut:</strong>
+![](Foto/foto3.png)
 
 # 4. Buat file baru dengan nama about.php
+```php
+<?php require('header.php'); ?>
+<div class="content">
+    <h2>Ini Halaman About</h2>
+    <p>Ini adalah bagian content dari halaman.</p>
+</div>
+<?php require('footer.php'); ?>
+```
+<strong>Posisi about.php biasanya ada di bagian akhir kalimat artikel.Hasil format diatas sebagai berikut:</strong>
+![](Foto/foto4.png)
 
-# 5. Membuat file baru dengan nama footer.php
