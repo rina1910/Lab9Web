@@ -8,6 +8,10 @@
 
 # Langkah-langkah Praktikum 9 "PHP Modular"
 
+Sebelum memulai langkah - langkah sebaiknya kita mengaktifkan atau menyalakan MySQL di Aplikasi Xampp
+![](Foto/xampp.png)
+
+
 # 1. <strong>Membuat file baru dengan nama header.php</strong>
 
 ````php
@@ -70,3 +74,6 @@ media="screen" />
 <strong>Posisi about.php biasanya ada di bagian akhir kalimat artikel.Hasil format diatas sebagai berikut:</strong>
 ![](Foto/foto4.png)
 
+# 5. Kesimpulan Langkah-langkah Praktikum 9 "PHP Modular"
+Bahwa header letaknya dibagian atas atau kepala artikel, footer dibagian akhir atau di kaki artikel dan home & about terletak dibagian tengah atau tubuhnya artikel atau isinya artikel.
+![](Foto/kesimpulan.png)
